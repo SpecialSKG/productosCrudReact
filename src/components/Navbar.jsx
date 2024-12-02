@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className="mx-auto px-6 py-3 bg-cyan-800">
-            <div className="flex items-center justify-between">
+            
+            <div className="flex items-center justify-around">
                 <div className="text-white font-bold text-xl">
                     <Link to={'/'}>Home</Link>
                 </div>
@@ -14,6 +15,7 @@ const Navbar = () => {
                         <li className='text-white'><Link to={'/catalogo'}>Catalago</Link></li>
                     </ul>
                 </div>
+                
             </div>
         </nav>
     )
